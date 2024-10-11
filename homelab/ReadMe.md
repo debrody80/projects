@@ -12,6 +12,7 @@ This project showcases a fully functional home lab environment, built using a De
 - **Metasploitable 2, DVWA, VulnHub**: Vulnerable virtual machines for exploitation practice
 - **Ubuntu**: Hosting Docker and Portainer for container management
 - **DVWA, WebGOAT, BWApp**: Vulnerable web applications for security testing
+- **Wazuh**: Security monitoring and intrusion detection system (IDS) for real-time threat detection
 
 ## Lab Overview
 
@@ -43,6 +44,9 @@ In this segment, an **Ubuntu** instance runs **Docker** and **Portainer** to man
 - **BWApp**
 
 These web applications are purposefully vulnerable to allow for web security testing, including OWASP Top 10 vulnerabilities.
+
+### 6. Wazuh for Monitoring
+**Wazuh** is installed to monitor the entire environment for security threats. It acts as an intrusion detection system (IDS) and provides real-time alerts for suspicious activities within the network. Wazuh helps track file integrity, monitor system logs, and detect unauthorized access or potential breaches.
 
 ## Key Features
 - **Virtualized Infrastructure**: The entire setup is virtualized using Proxmox, making it flexible and easy to manage.
